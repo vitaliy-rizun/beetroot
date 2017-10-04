@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button,
+input {
+    cursor: pointer;
+    background-color: transparent;
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}
+
+textarea {
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+}
+
+a, i, button {
+    transition: ease-out 0.4s;
+}
+
